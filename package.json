@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo build --filter=codehike...",
     "web": "turbo dev --filter=web --filter=codehike... ",
@@ -16,10 +16,9 @@
     "turbo": "^1.11.2"
   },
   "packageManager": "pnpm@9.7.1",
-  "repository": "code-hike/codehike",
+  "repository": "UcanStudio/codehike",
   "homepage": "https://codehike.org",
   "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/code-hike"
+    "type": "github"
   }
 }
